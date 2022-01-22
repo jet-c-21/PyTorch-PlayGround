@@ -105,4 +105,38 @@ a
 b
 
 
+if torch.cuda.is_available():
+    device = torch.device('cuda')
+
+
+x = torch.ones(5, device=device)
+
+
+y = torch.ones(5)
+
+
+x
+
+
+y
+
+
+y = y.to(device)
+
+
+y
+
+
+z = x+y
+
+
+z.numpy()
+
+
+z = z.to('cpu')
+
+
+z
+
+
 

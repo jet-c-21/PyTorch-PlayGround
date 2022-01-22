@@ -7,7 +7,7 @@ The implemented code from [THIS TUTORIAL](https://www.youtube.com/playlist?list=
 conda create --name pytorch python=3.8 -y
 ```
 - Jupyter Kernel
-```json
+```
 pip install ipykernel
 python -m ipykernel install --user --name pytorch --display-name "Pytorch Playground"
 ```
