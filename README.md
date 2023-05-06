@@ -8,14 +8,11 @@ conda create --name pytorch python=3.8 -y
 ```
 - Jupyter Kernel
 ```
-pip install ipykernel
+conda activate pytorch && \
+pip install ipykernel && \
 python -m ipykernel install --user --name pytorch --display-name "Pytorch Playground"
 ```
 - torch with GPU
 ```
-conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch -y
-```
-- torch
-```
-conda install pytorch torchvision torchaudio -c pytorch
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
 ```
