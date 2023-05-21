@@ -1,5 +1,12 @@
 # jupyter
 jupyter
 
+# tool
+pandas
+scikit-learn
+
 # plot
 matplotlib
+
+# download src code
+requests
