@@ -20,6 +20,10 @@ ehthumbs.db
 *.swp
 ._*
 
+## files
+*.jpg
+*.png
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
