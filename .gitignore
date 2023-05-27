@@ -23,6 +23,7 @@ ehthumbs.db
 ## files
 *.jpg
 *.png
+*.gz
 
 
 # Byte-compiled / optimized / DLL files
