@@ -25,6 +25,9 @@ ehthumbs.db
 *.png
 *.gz
 
+## folders
+Tutorials/mrdbourke/data
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
