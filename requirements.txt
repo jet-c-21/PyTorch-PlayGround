@@ -10,3 +10,6 @@ matplotlib
 
 # download src code
 requests
+
+# metrics
+torchmetrics
