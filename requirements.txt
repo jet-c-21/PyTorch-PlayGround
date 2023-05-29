@@ -7,6 +7,7 @@ scikit-learn
 
 # plot
 matplotlib
+mlxtend
 
 # download src code
 requests
@@ -16,3 +17,6 @@ torchmetrics
 
 # general
 tqdm
+
+# view model info
+torchinfo
